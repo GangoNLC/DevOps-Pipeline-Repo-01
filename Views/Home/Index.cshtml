@@ -1,0 +1,38 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+@model DevOpsPipeline.Models.HomeViewModel;
+
+
+<div class="text-center">
+    <h1 class="display-4" style="font-weight:500; font-size:50px">Welcome DevOps Pipeline Version 1.3</h1>
+    <h1> Pmu Demo v3</h1>
+    <h1 class="display-2;alert alert-success" style="margin: 50px 250px; padding: 30px">Current Container ID is : @Model.HostId </h1>
+</div>
+<div class="sr-section hidden completed-view" style="text-align:center;padding: 50px 0px 0px;">
+    <button onClick="window.location.reload();" class="btn btn-primary">Refresh Page</button>
+</div>  
+<div class="sr-content" style="text-align:center; padding: 50px">
+        <div class="pasha-image-stack">
+          <img
+            src="https://picsum.photos/280/320?random=1"
+            width="280"
+            height="320"
+          />
+          <img
+            src="https://picsum.photos/280/320?random=2"
+            width="280"
+            height="320"
+          />
+          <img
+            src="https://picsum.photos/280/320?random=3"
+            width="280"
+            height="320"
+          />
+          <img
+            src="https://picsum.photos/280/320?random=4"
+            width="280"
+            height="320"
+          />
+        </div>
+</div>
